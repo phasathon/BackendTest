@@ -1,0 +1,41 @@
+{
+  "name": "ErrorMapping",
+  "description": "this json used for Mapping error",
+  "errorList":[
+       {
+        "code": "M000",
+        "codeMapping": "M000",
+        "dspMessage": "ขออภัยกรุณาทำรายการใหม่อีกครั้ง",
+        "messageDetail": "catch Exception"
+      },
+      {
+        "code": "M001",
+        "codeMapping": "M001",
+        "dspMessage": "มีผู้ใช้งานแล้วในระบบ",
+        "messageDetail": "Duplicate Username"
+      },
+      {
+        "code": "M002",
+        "codeMapping": "M002",
+        "dspMessage": "เงินเดือนต่ำกว่าที่กำหนด",
+        "messageDetail": "Lower salary"
+      },
+      {
+        "code": "M003",
+        "codeMapping": "M003",
+        "dspMessage": "ไม่พบผู้ใช้งาน",
+        "messageDetail": "Not Found Customer"
+      },
+      {
+        "code": "M004",
+        "codeMapping": "M004",
+        "dspMessage": "รหัสผ่านไม่ถูกต้อง",
+        "messageDetail": "Wrong password"
+      },
+      {
+        "code": "M005",
+        "codeMapping": "M005",
+        "dspMessage": "หมายเลขโทรศัพท์ไม่ถูกต้อง กรุณากรอกใหม่อีกครั้ง",
+        "messageDetail": "Wrong format phone"
+      }]
+}

@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://10.59.205.141:1433;databaseName=ghbapi
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: DWS_MAB1
+    password: P@ssw0rd#3
+  jpa:
+    show-sql: true
+    hibernate:
+      dialect: org.hibernate.dialect.SQLServer2012Dialect
+server:
+  port: 8000
+jwt:
+  secret: jwtSecret
+  expire: 180 #sec
+application:
+  key: aesPrivateKey123
+  userAuthen: 'Service'
+  passAuthen: 'P@ssw0rd123'
+  keyAuthen: 'LZ7iyrweKfzMEM1iBu9P8JerIZ9gGVgpiEt1fK46SDcVvp7vtCfzxPK0fqOFHL0N'
